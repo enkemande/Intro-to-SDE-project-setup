@@ -6,3 +6,4 @@ const mathOperation = () => {
 }
 
 console.log(mathOperation())
+
