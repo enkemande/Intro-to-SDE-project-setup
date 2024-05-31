@@ -9,6 +9,7 @@ const index = quote.indexOf(`${substring}`);
 const revisedQuote = quote.slice(0,quoteLength - ((substring.length - 1) + index));
 
 console.log(revisedQuote);
+console.log(quoteLength);  
 
 
 
