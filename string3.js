@@ -7,7 +7,7 @@ console.log(fixedQuote);
 
 
 // Replacing "green eggs and ham" in fixedQuote
-fixedQuote = fixedQuote.replace("green eggs and ham", "Koki corn");
+fixedQuote = fixedQuote.replace("green eggs and ham", "koki corn");
 
 console.log(fixedQuote);
 
