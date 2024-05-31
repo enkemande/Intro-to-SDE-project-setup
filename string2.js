@@ -5,10 +5,8 @@ const substring = 'green eggs and ham';
 const quoteLength = quote.length;
 const index = quote.indexOf(`${substring}`);
 
-console.log(index);
-
 //Trimming down the original quote to 'I do not like green eggs and ham.'
-const revisedQuote = quote.slice(0,33);
+const revisedQuote = quote.slice(0,quoteLength - ((substring.length - 1) + index));
 
 console.log(revisedQuote);
 
