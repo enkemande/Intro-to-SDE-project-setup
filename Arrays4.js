@@ -13,9 +13,13 @@ if (index !== -1) {
 console.log(birds);
 
 // making a new array called eBirds starting with letter "E"
-let eBirds = birds.toString();
+function newBird(bird) {
+    return bird.startsWith("E");
+}
 
-console.log(eBirds.includes ("E"));
+const eBirds = birds.filter(newBird);
+
+console.log(eBirds);
 
 
 
