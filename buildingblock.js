@@ -19,15 +19,13 @@ console.log(shoppingDone);
 // CONDITIONALS - else if... statement syntax
    // Used when we have more than two conditions
 
-   let passageWay;
+   let passageWay = [0, 1, 3];
 
-   if ("Number of persons present" >= 2 ) {
-    passageWay = "Open";
-   } else if ("Number of persons present" <= 3) {
-    passageWay = "Open";
-   } else {
-    passageWay = "Closed";
-   }
+    if (passageWay.length >= 1 ) {
+     passageWay = "Open";
+    } else {
+     passageWay = "Closed";
+    }
 
    console.log(passageWay);
 
