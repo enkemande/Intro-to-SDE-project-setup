@@ -4,9 +4,8 @@ let response;
 if (season === 'summer') {
     response = 'We are in summer, welcome to summer!';
     console.log(response);
-}
-else if (season === 'winter') {
-    response = 'We don\'t know what season it is';
+} else if (season === 'winter') {
+    response = 'We are in winter, welcome to winter!';
     console.log(response);
 }
 else {
