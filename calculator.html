@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator-wrapper">
+     <div class="display">
+        <h1 class="display-value">50*4</h1>
+     </div>
+     <div class="keypad">
+        <div class="keypad-row">
+            <button class="keypad-button">AC</button>
+            <button class="keypad-button">+/-</button> 
+            <button class="keypad-button">%</button>
+            <button class="keypad-button">/</button>
+        </div>
+        <div class="keypad-row">
+            <button class="keypad-button">7</button>
+            <button class="keypad-button"> 8</button>
+            <button class="keypad-button">9</button>
+            <button class="keypad-button">X</button>
+        </div>
+        <div class="keypad-row">
+            <button class="keypad-button">4</button>
+            <button class="keypad-button">5</button>
+            <button class="keypad-button">6</button>
+            <button class="keypad-button">-</button>
+        </div>
+        <div class="keypad-row">
+            <button class="keypad-button">1</button>
+            <button class="keypad-button">2</button>
+            <button class="keypad-button">3</button>
+            <button class="keypad-button">+</button>
+        </div>
+        <div class="keypad-row">
+            <button class="keypad-button">0</button>
+            <button class="keypad-button">.</button>
+            <button class="keypad-button">=</button>
+        </div>
+     </div>
+      
+    </div>
+    <scipt>
+        
+    </scipt>
+    <style>
+        .calculator-wrapper {
+            display: flex;
+            flex-direction: column;
+            height: 500px;
+            width: 300px;
+            background-color: #5555;
+            border-radius: 15px;
+            overflow: hidden;
+        }
+
+        .display {
+            height: 190px;
+            width: 100%;
+            background-color: #333;
+            display: flex;
+            position: relative; 
+        }
+
+        .display-value {
+            position: absolute;
+            bottom: 0;
+            right: 10px;
+            font-family: sans-serif;
+            color: #fff;
+            font-size: 50px;
+            margin: 0;
+        }
+
+        .keypad {
+            flex:1;
+            background-color: #444;
+            padding: 10px;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+
+        .keypad-row {
+            display: flex;
+            flex-direction: row;
+            gap: 10px;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .keypad-button {
+            height: 50px;
+            width: 100px;
+            background-color: #666;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        
+    </style>
+
+    
+</body>
+</html>
